@@ -28,6 +28,6 @@ defmodule UeberauthSAML.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:ueberauth, "~> 0.4"},
-     {:esaml, git: "git://github.com/wrren/esaml.git", branch: "ueberauth_saml"}]
+     {:esaml, git: "git://github.com/danpantry/esaml.git", branch: "master"}]
   end
 end
